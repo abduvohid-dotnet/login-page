@@ -1,0 +1,64 @@
+.animated-text {
+    animation: textColorAnim 2s linear infinite;
+}
+
+@keyframes textColorAnim {
+    0% {
+        color: #3b82f6; /* blue */
+    }
+
+    25% {
+        color: #9333ea; /* purple */
+    }
+
+    50% {
+        color: #10b981; /* green */
+    }
+
+    75% {
+        color: #f59e0b; /* amber */
+    }
+
+    100% {
+        color: #3b82f6; /* back to blue */
+    }
+}
+
+
+.focus-animated-border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3b82f6;
+    /* default blue */
+    transition: border-color 0.3s ease-in-out;
+    animation: borderColorAnim 2s linear infinite;
+    outline: none;
+}
+
+@keyframes borderColorAnim {
+    0% {
+        border-color: #3b82f6;
+        /* blue */
+    }
+
+    25% {
+        border-color: #9333ea;
+        /* purple */
+    }
+
+    50% {
+        border-color: #10b981;
+        /* green */
+    }
+
+    75% {
+        border-color: #f59e0b;
+        /* amber */
+    }
+
+    100% {
+        border-color: #3b82f6;
+        /* back to blue */
+    }
+}
+
