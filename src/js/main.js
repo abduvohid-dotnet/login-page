@@ -34,6 +34,7 @@ lightBtn.addEventListener("click", () => {
     localStorage.setItem("theme", "light");
 });
 
+// Scroll to top button
 
 window.addEventListener("scroll", () => {
     if (window.scrollY > 300) {
