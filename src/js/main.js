@@ -2,7 +2,8 @@ const darkBtn = document.getElementById("darkBtn");
 const lightBtn = document.getElementById("lightBtn");
 const page = document.getElementById("pageBody");
 const scrollBtn = document.getElementById("scroll-top");
-
+const confirmPassword = document.getElementById("confirm-password");
+const password = document.getElementById("password");
 
 function applyTheme(theme) {
     if (theme === "dark") {
@@ -48,4 +49,3 @@ scrollBtn.addEventListener("click", (e) => {
     e.preventDefault();
     window.scrollTo({ top: 0, behavior: "smooth" });
 });
-
